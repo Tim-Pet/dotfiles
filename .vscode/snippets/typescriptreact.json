@@ -1,0 +1,17 @@
+{
+  "TS React Functional Arrow Component": {
+    "prefix": "tsrafce",
+    "body": [
+      "import React, { ReactElement } from 'react';",
+      "",
+      "type Props = {",
+      "}",
+      "",
+      "export const ${1:$TM_FILENAME_BASE} = ({}: Props): ReactElement => {",
+      "  return ${0:<div>${1:$TM_FILENAME_BASE}</div>};",
+      "};",
+      ""
+    ],
+    "description": "Create a React Functional Arrow Component with explicit export."
+  }
+}
