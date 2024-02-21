@@ -1,0 +1,33 @@
+# shell
+alias ls="exa"
+alias l="ls -l"
+alias ll="ls -la --group-directories-first"
+alias rm="rm -f"
+
+# git
+alias gdc="git diff --cached"
+alias gsync='git add . && git commit -m "sync" && git pull --rebase && git push'
+
+# copy prettier files
+alias addprettier="cp ~/.prettier/.* ."
+
+# npm
+alias npmi="npm i"
+alias npmil="npm i --legacy-peer-deps"
+alias npmu="npm uninstall"
+alias npms="npm start"
+alias npmr="npm run"
+
+# ---- semi frequently used ----
+alias npmis="npm i && npm start"
+alias npmt="npm test"
+alias npmid="npm install -D"
+alias npmig="npm i -g"
+alias npmiy="npm init -y"
+
+
+# clean up Downloads folder
+alias dl="cd ~/Downloads; mkdir $(echo `date +%Y-%m-%d`); mv  ./^$_  $_"
+
+# show list of aliases
+alias list-alias="cat ~/.aliases"
