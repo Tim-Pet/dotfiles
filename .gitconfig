@@ -1,0 +1,9 @@
+[user]
+	name = Tim Petersen
+	email = tim.petersen1@outlook.de
+[pull]
+	ff = only
+[core]
+	pager = bat
+[init]
+	defaultBranch = main
